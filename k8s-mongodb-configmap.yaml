@@ -1,0 +1,7 @@
+apiVersion: v1
+
+kind: ConfigMap
+metadata:
+  name: k8s-mongodb-configmap
+data:
+  database-url: k8s-mongodb-service
